@@ -18,6 +18,7 @@ h1 {
 }
 
 h2 {
+  display: inline-block; 
   font-family: 'Alexandria';
   font-weight: 400;
   color: #D05F15;
@@ -26,6 +27,7 @@ h2 {
 }
 
 h3 {
+  display: inline-block; 
   font-family: 'Alexandria';
   font-weight: bold;
   color: #1F4AC9;
@@ -34,6 +36,7 @@ h3 {
 }
 
 .habilidades h3{
+  display: inline-block; 
   font-family: 'Alexandria';
   font-weight: bold;
   color: #D05F15;
@@ -42,6 +45,7 @@ h3 {
 }
 
 .contacto h3{
+  display: inline-block; 
   font-family: 'Alexandria';
   font-weight: bold;
   color: #D05F15;
