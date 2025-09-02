@@ -7,7 +7,6 @@
 }
 
 /* FONTS */
-/* FONTS */
 
 h1 {
 	color: #1F4AC9;
@@ -23,7 +22,7 @@ h2 {
   font-weight: 400;
   color: #D05F15;
   font-size: 15pt;
-  border-bottom: 4px solid #D05F15;
+  border-bottom: 2px solid #D05F15;
 }
 
 h3 {
@@ -74,7 +73,6 @@ p{
   font-size: 15pt;
 }
 
-
 .contacto p{
   font-family: 'Helvetica';
   color: #FCD1CD;
@@ -95,7 +93,6 @@ body{
   background: #FCD1CD;
 }
 
-/* HEADER */
 /* HEADER */
 
 .main-container {
@@ -119,7 +116,6 @@ body{
 .logo-img {
 width: 50px;
 }
-
 
 /* NAV */
 
@@ -209,12 +205,6 @@ nav ul li a:hover {
   animation:slide-right 600ms linear both
 }
 
-.titulo hr {
-  width: 180px;
-  border: 1.5px solid #D05F15;
-  margin: 5px 0;
-}
-
 .foto img {
   width: 450px;
   height: auto;
@@ -235,21 +225,9 @@ nav ul li a:hover {
   margin-left: 42px;
 }
 
-.info hr {
-  width: 275px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
-}
-
 .educacion{
   margin-top: 60px;
   padding-left: 42px;
-}
-
-.educacion hr {
-  width: 235px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
 }
 
 .habilidades{
@@ -260,12 +238,6 @@ nav ul li a:hover {
   padding-bottom: 10px;
   background-color: #1F4AC9;
   border-radius: 50px;
-}
-
-.habilidades hr {
-  width: 265px;
-  border: 3px solid #D05F15;
-  margin: 5px 0;
 }
 
 .contacto {
@@ -280,166 +252,12 @@ nav ul li a:hover {
   border-radius: 50px;
 }
 
-.contacto hr{
-  width: 210px;
-  border: 3px solid #D05F15;
-  margin: 5px 0;
-}
-
 .sobre-mi{
   flex-grow: 2;
   flex-shrink: 0;
   width: 400px;
   margin-right: 80px;
   text-align: justify;
-}
-
-.sobre-mi hr{
-  width: 205px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
-}
-
-li{
-  padding-top: 15px;
-  text-decoration: none;
-}
-
-ul{
-  list-style: none;
-}
-
-/* FOOTER */
-
-footer{
-  background-color: #1F4AC9;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-/* MAIN */
-
-.introduccion {
-  display: flex;
-  justify-content: space-between; 
-  align-items: flex-start; 
-  padding-left: 40px;
-  padding-right: 40px;
-  gap: 20px;
-}
-
-.texto {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-
-@keyframes slide-right{
-  0%{transform:translateX(-100px)}
-  100%{transform:translateX(15px)}
-}
-
-.titulo {
-  margin-bottom: 10px;
-  animation:slide-right 350ms linear both
-}
-
-.nombre {
-  animation:slide-right 600ms linear both
-}
-
-.titulo hr {
-  width: 180px;
-  border: 1.5px solid #D05F15;
-  margin: 5px 0;
-}
-
-.foto img {
-  width: 450px;
-  height: auto;
-  display: block;
-  padding-right: 40px;
-}
-
-.informacion{
-  display: flex;
-  flex-direction: row;   
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 80px;
-}
-
-.info{
-  margin-top: 60px;
-  margin-left: 42px;
-}
-
-.info hr {
-  width: 275px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
-}
-
-.educacion{
-  margin-top: 60px;
-  padding-left: 42px;
-}
-
-.educacion hr {
-  width: 235px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
-}
-
-.habilidades{
-  margin-top: 60px;
-  padding-top: 10px;
-  padding-left: 42px;
-  padding-right: 42px;
-  padding-bottom: 10px;
-  background-color: #1F4AC9;
-  border-radius: 50px;
-}
-
-.habilidades hr {
-  width: 265px;
-  border: 3px solid #D05F15;
-  margin: 5px 0;
-}
-
-.contacto {
-  flex-grow: 1;
-  flex-shrink: 0; 
-  padding-top: 10px;
-  padding-left: 42px;
-  padding-right: 42px;
-  padding-bottom: 10px;
-  margin-left: 42px;
-  background-color: #1F4AC9;
-  border-radius: 50px;
-}
-
-.contacto hr{
-  width: 210px;
-  border: 3px solid #D05F15;
-  margin: 5px 0;
-}
-
-.sobre-mi{
-  flex-grow: 2;
-  flex-shrink: 0;
-  width: 400px;
-  margin-right: 80px;
-  text-align: justify;
-}
-
-.sobre-mi hr{
-  width: 205px;
-  border: 3px solid #1F4AC9;
-  margin: 5px 0;
 }
 
 li{
