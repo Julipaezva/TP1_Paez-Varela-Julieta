@@ -10,16 +10,16 @@
 
 <body>
 <!-------HEADER------->
-    <section class="header-section">
+    <section class="header-section"> <!-- cómo va a haber una section con una class header.section si ya existe esa etiqueta!!!! todo este bloque está mal semantizado pero no mal estructurado -->
             <div class="main-container">
                 <header class="separacion-header">
-                    <div class="logo">
+                    <div class="logo"> <!-- no es necesario que las img estén contenidas en un div -->
                         <img src="img/logo.png" class="logo-img">
                     </div>
 <!-------NAV------->
                     <nav class="botonera">     
                         <ul>
-                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Portfolio</a></li> <!-- todo esto es un choclazo, te conviene poner las A directamente dentro de la nav, sin ul/li -->
                             <li><a href="#sobremi">Sobre mi</a></li>
                             <li><a href="#contacto">Contacto</a></li>
                             <li><a href="#">Proyectos</a></li>
@@ -35,7 +35,7 @@
                     <h2>Curriculum vitae</h2>  
                     <h1>Julieta Paez Varela</h1>
             </article>
-            <article class="foto">
+            <article class="foto"> <!-- no tiene que estar en otra etiqueta una img -->
                 <img src="img/foto.png" alt="foto-curriculum">
             </article>
         </section>
