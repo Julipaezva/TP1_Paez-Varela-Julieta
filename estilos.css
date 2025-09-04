@@ -101,7 +101,7 @@ body{
 .main-container {
   max-width: 1920px;
   margin: 0 auto;
-  position: relative;
+  position: relative; /* qué está haciendo este position??? */
 }
 
 .header-section {
@@ -126,7 +126,7 @@ nav {
   background-color: #FCD1CD;
   padding: 0;
   margin: 0;
-  padding: 0;
+  padding: 0; /* no repitas!!! además esta propiedad ya se hereda del selector universal */
   margin: 0;
 }
 
@@ -185,7 +185,7 @@ nav ul li a:hover {
   align-items: flex-start;
   padding-left: 40px;
   padding-right: 40px;
-  gap: 20px;
+  gap: 20px; /* si ya hay un space-between para qué hay un gap?? */
 }
 
 @keyframes slide-right{
