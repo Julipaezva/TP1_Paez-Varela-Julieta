@@ -191,7 +191,7 @@ nav a:hover {
 }
 
 .foto {
-  width: 500px;
+  width: 480px;
   border-radius: 300px;
   border: #1F4AC9 10px solid;
 }
@@ -228,11 +228,13 @@ nav a:hover {
   display: flex;
   flex-direction: row;   
   align-items: flex-start;
-  align-content: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1920px;
   gap: 50px;
   margin-top: 25px;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 
 .contacto {
@@ -241,7 +243,6 @@ nav a:hover {
   padding-left: 42px;
   padding-right: 42px;
   padding-bottom: 10px;
-  margin-left: 42px;
   background-color: #1F4AC9;
   border-radius: 50px;
 }
@@ -249,8 +250,7 @@ nav a:hover {
 .sobre-mi{
   flex-grow: 2;
   flex-shrink: 0;
-  width: 400px;
-  margin-right: 80px;
+  width: 350px;
   text-align:left;
 }
 
