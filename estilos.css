@@ -12,7 +12,7 @@
 h1 {
 	color: #1F4AC9;
   font-family:'Alexandria';
-	font-size: 100pt; 
+	font-size: 125pt; 
   font-weight: bold;
   line-height: 0.8;
   animation: slide-right 600ms linear both
@@ -180,17 +180,18 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 25px;
-  max-width: 480px;
+  gap: 130px;
+  max-width: 700px;
 }
 
 .intro-dere{
   display: flex;
   justify-content: right;
+  padding-top: 25px;
 }
 
 .foto {
-  width: 450px;
+  width: 500px;
   border-radius: 300px;
   border: #1F4AC9 10px solid;
 }
@@ -199,19 +200,18 @@ nav a:hover {
   display: flex;
   flex-direction: row;   
   align-items: flex-start;
-  flex-wrap: wrap;
+  align-content: center;
+  flex-wrap: nowrap;
   gap: 50px;
   max-width: 1920px;
 }
 
 .info{
   margin-top: 60px;
-  margin-left: 42px;
 }
 
 .educacion{
   margin-top: 60px;
-  padding-left: 42px;
 }
 
 .habilidades{
@@ -228,13 +228,14 @@ nav a:hover {
   display: flex;
   flex-direction: row;   
   align-items: flex-start;
+  align-content: center;
   flex-wrap: wrap;
   max-width: 1920px;
   gap: 50px;
+  margin-top: 25px;
 }
 
 .contacto {
-  flex-grow: 1;
   flex-shrink: 0; 
   padding-top: 10px;
   padding-left: 42px;
