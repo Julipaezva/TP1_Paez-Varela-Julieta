@@ -10,36 +10,32 @@
 
 <body>
 <!-------HEADER------->
-    <section class="header-section">
+    <header>
             <div class="main-container">
-                <header class="separacion-header">
-                    <div class="logo">
-                        <img src="img/logo.png" class="logo-img">
-                    </div>
+                <div class="separacion-header">
+                    <img class="logo" src="img/logo.png" class="logo-img">
 <!-------NAV------->
                     <nav class="botonera">     
-                        <ul>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#sobremi">Sobre mi</a></li>
-                            <li><a href="#contacto">Contacto</a></li>
-                            <li><a href="#">Proyectos</a></li>
-                        </ul>
+                        <a href="#">Portfolio</a>
+                        <a href="#sobremi">Sobre mi</a>
+                        <a href="#contacto">Contacto</a>
+                        <a href="#">Proyectos</a>
                     </nav>
-                </header>
+                </div>
             </div>
-    </section>
+    </header>
 <!-------MAIN------->
     <main>
         <section class="introduccion">
-            <article class="texto">
+            <div class="intro-izq">
                     <h2>Curriculum vitae</h2>  
                     <h1>Julieta Paez Varela</h1>
-            </article>
-            <article class="foto">
-                <img src="img/foto.png" alt="foto-curriculum">
-            </article>
+            </div>
+            <div class="intro-dere">
+            <img class="foto" src="img/foto.png" alt="foto-curriculum">
+            </div>
         </section>
-        <section class="informacion">
+        <section class="informacion-arriba">
             <article class="info">
             <h3>Información</h3>
             <ul>
@@ -59,10 +55,6 @@
             <article class="educacion">
             <h3>Educación</h3>
             <ul>
-                <li>
-                    <span>Primaria (2007 - 2012)</span>
-                    <p>Colegio Nuestra Señora de Luján</p> 
-                </li>
                 <li>
                     <span>Secundaria (2013 - 2018)</span>
                     <p>Bachiller en Ciencias Naturales</p>
@@ -93,7 +85,13 @@
                     <span>Figma</span>
                     <p>Intermedio</p>
                 </li>
+                <li>
+                    <span>Inglés</span>
+                    <p>Intermedio</p>
+                </li>
             </article>
+        </section>
+        <section class="informacion-abajo">
             <article class="contacto" id="contacto">
                 <h3>Contacto</h3>
                 <ul>
